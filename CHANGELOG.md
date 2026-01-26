@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.1.10 - 2026-01-26
+
+### Updated
+
+- Updated the TOC number to support Midnight pre-patch
+
 ## v1.1.9 - 2025-03-13
 
 ### Updated
