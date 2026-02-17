@@ -24,6 +24,12 @@ function Main:ToggleWindow()
   self:Render()
 end
 
+_G.ToggleMain = function()
+  if addon and addon.Main then
+    addon.Main:ToggleWindow()
+  end
+end
+
 function Main:Render()
   local dataColumns = self:GetMainColumns()
   local tableWidth = 0

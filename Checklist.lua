@@ -23,6 +23,12 @@ function Checklist:ToggleWindow()
   self:Render()
 end
 
+_G.ToggleChecklist = function()
+  if addon and addon.Checklist then
+    addon.Checklist:ToggleWindow()
+  end
+end
+
 function Checklist:Render()
   local character = Data:GetCharacter()
   local dataColumns = self:GetColumns()

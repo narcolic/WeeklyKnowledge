@@ -1,0 +1,8 @@
+<Bindings>
+    <Binding name="WeeklyKnowledge" category="WeeklyKnowledge">
+        ToggleMain()
+    </Binding>
+    <Binding name="Checklist" category="WeeklyKnowledge">
+        ToggleChecklist()
+    </Binding>
+</Bindings>
